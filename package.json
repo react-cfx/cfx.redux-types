@@ -1,0 +1,29 @@
+{
+  "name": "cfx.redux-types",
+  "version": "0.0.0",
+  "description": "cfx.redux-types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-cfx/cfx.redux-types.git"
+  },
+  "keywords": [
+    "cfx"
+  ],
+  "author": "FooTearth <footearth@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react-cfx/cfx.redux-types/issues"
+  },
+  "homepage": "https://github.com/react-cfx/cfx.redux-types#readme",
+  "devDependencies": {
+    "ddeyes": "^0.0.1",
+    "shelljs": "^0.6.0"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
