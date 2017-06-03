@@ -21,12 +21,12 @@
     "url": "https://github.com/react-cfx/cfx.redux-types/issues"
   },
   "homepage": "https://github.com/react-cfx/cfx.redux-types#readme",
-  "devDependencies": {},
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.1",
     "coffeescript": "next",
     "ddeyes": "^0.0.4",
     "shelljs": "^0.7.7"
-  }
+  },
+  "dependencies": {}
 }
