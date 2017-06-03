@@ -4,9 +4,9 @@
   "description": "cfx.redux-types",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -rf build",
-    "build": "npm run clean; coffee -bo build src"
+    "test": "make test",
+    "clean": "make clean",
+    "build": "make build"
   },
   "repository": {
     "type": "git",
