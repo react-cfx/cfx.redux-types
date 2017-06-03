@@ -1,3 +1,4 @@
+
 underlineToHump = (name) ->
   words = name.split '_'
   words = words.reduce (result, key, index, array) ->
@@ -48,7 +49,7 @@ mergeActionsTypes = ->
     actions: {}
     types: {}
 
-module.exports = {
+export default {
   toActionsTypes
   mergeActionsTypes
 }
