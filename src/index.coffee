@@ -39,17 +39,19 @@ mergeActionsTypes = ->
 
   actionsTypesArray
   .reduce (result, actionsTypes, index, array) ->
-    actions: Object.assign {}
-    , result.actions
-    , actionsTypes.actions
-    types: Object.assign {}
-    , result.types
-    , actionsTypes.types
+    actions: {
+      result.actions...
+      actionsTypes.actions...
+    }
+    types: {
+      result.types...
+      actionsTypes.types...
+    }
   ,
     actions: {}
     types: {}
 
-export default {
+export {
   toActionsTypes
   mergeActionsTypes
 }

@@ -1,1 +1,4 @@
-module.exports = require('./dest/index.js').default;
+export {
+  toActionsTypes,
+  mergeActionsTypes
+} from 'src'
